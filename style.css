@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+.background{
+    background-repeat: no-repeat;
+}
+
+.containerimg img{
+    display: flex;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: center;
+    margin-top: 3%;
+    border: 4px solid;
+    border-image-source: linear-gradient (right 90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+
+
+
+}
+
+.card{
+    border: 4px solid #43E7AD;
+    width: 580px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 32px 32px;
+    border-radius: 8%;
+    background: #2A2634;
+   border-top: 3px solid;
+   border-image: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 1 0 0 0;
+   
+   
+   
+}
+
+.aga1{
+    color: white;
+}
+
+.aga4{
+    color: #A1A1AA;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lof{
+    border-radius: 12px;
+    border-style: solid;
+    background-color: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 1 0 0 0;
+    border-top: transparent
+    
+}
+
+.rl{
+    border-radius: 12px;
+    border-style: solid;
+    background-color: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 1 0 0 0;
+    border-top: transparent
+    
+}
+
+.tfm{
+    border-radius: 12px;
+    border-style: solid;
+    background-color: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 1 0 0 0;
+    border-top: transparent
+    
+}
+
+
+.HK{
+    border-radius: 12px;
+    border-style: solid;
+    background-color: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 1 0 0 0;
+    border-top: transparent
+}
+
+.card2{
+    border: 4px solid #43E7AD;
+    width: 580px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 32px 32px;
+    border-radius: 8%;
+    background: #2A2634;
+   border-top: 3px solid;
+   border-image: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 1 0 0 0;
+   left: 32px;
+}
+
+.fodase1{
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+.fodase2{
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+.fodase3{
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+.cartao3{
+    border: 0px solid #43E7AD;
+    width: 580px;
+    height: 100px;
+    display: flex;
+    flex-direction: center;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 20px 32px 32px;
+    border-radius: 5%;
+    background: #2A2634;
+   border-top: 2px solid;
+   border-image: linear-gradient(to right,#A5F1E9,#d80b77, #30E3DF) 5 0 0 0;
+   left: 172px;
+}
